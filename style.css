@@ -13,7 +13,7 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #1d2025;
-    background-image: url('/assets/background.png');
+    background-image: url('./assets/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
