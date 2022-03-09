@@ -24,9 +24,9 @@ body{
 }
 
 .head{
-    position: relative;
-    top: -20px;
-    left: 120px;
+    position: fixed;
+    top: 7%;
+    left: 10%;
     color: #ffffff;
 }
 
@@ -104,7 +104,6 @@ h3{
 /* MENU */
 
 .menu{
-    
     position: absolute;
     top: 28px;
     right: 30px;
@@ -118,10 +117,10 @@ h3{
 }
 
 .menu-items{
-    position: absolute;
-    top: -200px;
-    left: 150px;
-    width: 100%;
+    position: fixed;
+    top: -30%;
+    left: 40%;
+    width: 100vh;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -142,7 +141,7 @@ h3{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* ANIMAÇÃO DE MENU */
@@ -190,6 +189,15 @@ h3{
 
 
 @media only screen and (max-width: 768px) {
+
+    .head{
+        position: fixed;
+        top: 7%;
+        left: 30%;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
 
     .checkbox-container {
         display:flex;
@@ -241,7 +249,6 @@ h3{
     /* MENU */
     
     .menu{
-        
         position: absolute;
         top: 28px;
         right: 30px;
@@ -255,10 +262,10 @@ h3{
     }
     
     .menu-items{
-        position: absolute;
-        top: -200px;
-        left: 15px;
-        width: 100%;
+        position: fixed;
+        top: -30%;
+        left: -32%;
+        width: 100vh;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -316,7 +323,7 @@ h3{
     }
     
     #toggle:checked ~ .menu-items {
-        position: absolute;
+        position: fixed;
         z-index: 1;
         visibility: visible;
         opacity: 1;

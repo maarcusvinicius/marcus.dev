@@ -13,9 +13,9 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #1d2025;
-    background-image: url('./assets/background.png');
+    background-image: url(./assets/background.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 10% 50%;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -125,9 +125,9 @@ a:hover{
 
 .menu-items{
     position: fixed;
-    top: -200px;
-    left: 136px;
-    width: 100%;
+    top: -30%;
+    left: 40%;
+    width: 100vh;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -148,7 +148,7 @@ a:hover{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 /* ANIMAÇÃO DE MENU */
@@ -301,13 +301,14 @@ a:hover{
 }
 
 @media only screen and (max-width: 768px) {
+
     .header-container{
         height: 100vh;
         width: 100%;
         background-color: #1d2025;
-        background-image: url('/assets/background.png');
+        background-image: url('./assets/background.png');
         background-repeat: no-repeat;
-        background-position: bottom 244px right 19px;
+        background-position: right 19px bottom 50%;
         background-size: contain;
         display: flex;
         flex-direction: column;
@@ -337,7 +338,7 @@ a:hover{
     .social-media a{
         text-decoration: none;
         color: #ffffff;
-        padding: 1rem 2.6rem;
+        padding: 0.9rem 2.7rem;
         border: 1px solid #ffffff;
         min-width: 1rem;
         display: flex;
@@ -347,6 +348,7 @@ a:hover{
     }
 
     .menu{
+        
         position: absolute;
         top: 28px;
         right: 30px;
@@ -362,8 +364,8 @@ a:hover{
     .menu-items{
         position: fixed;
         top: -30%;
-        left: 10px;
-        width: 100%;
+        left: -38%;
+        width: 100vh;
         height: 100vh;
         display: flex;
         justify-content: center;
@@ -372,6 +374,55 @@ a:hover{
         opacity: 0;
         visibility: hidden;
         transition: 400ms ease-in-out 0s;
+    }
+
+    .menu-items ul li a {
+        margin: 10px 0;
+        color: #1d2025;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+
+    #toggle:checked + .checkbox .trace:nth-child(1) {
+        transform: rotate(45deg);
+        top: 47px;
+        background-color: #1d2025;
+    }
+
+    #toggle:checked + .checkbox .trace:nth-child(2) {
+        transform: translate(-100px);
+        width: 30px;
+        visibility: hidden;
+        opacity: 0;
+        background-color: #1d2025;
+    }
+
+    #toggle:checked + .checkbox .trace:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 48px;
+        background-color: #1d2025;
+    }
+
+    #toggle:checked + .checkbox {
+        
+        background-color: #ffffff;
+    }
+
+    #toggle:checked ~ .menu{
+        
+        box-shadow: 0px 0px 0px 50vmax #ffffff;
+        z-index: 1;
+        overflow-x: hidden;
+    }
+
+    #toggle:checked ~ .menu-items {
+        position: absolute;
+        z-index: 1;
+        visibility: visible;
+        opacity: 1;
+        
     }
 
 
@@ -389,7 +440,7 @@ a:hover{
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
-}
+    }
 
     .card{
         width: 150px;
