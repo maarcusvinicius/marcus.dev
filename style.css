@@ -308,7 +308,7 @@ a:hover{
         background-color: #1d2025;
         background-image: url('./assets/background.png');
         background-repeat: no-repeat;
-        background-position: right 19px bottom 50%;
+        background-position: right 19px top 45%;
         background-size: contain;
         display: flex;
         flex-direction: column;
@@ -338,7 +338,7 @@ a:hover{
     .social-media a{
         text-decoration: none;
         color: #ffffff;
-        padding: 0.9rem 2.7rem;
+        padding: 1rem 3.3rem;
         border: 1px solid #ffffff;
         min-width: 1rem;
         display: flex;
@@ -364,7 +364,7 @@ a:hover{
     .menu-items{
         position: fixed;
         top: -30%;
-        left: -38%;
+        left: -65%;
         width: 100vh;
         height: 100vh;
         display: flex;

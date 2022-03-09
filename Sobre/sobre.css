@@ -264,7 +264,7 @@ h3{
     .menu-items{
         position: fixed;
         top: -30%;
-        left: -32%;
+        left: -60%;
         width: 100vh;
         height: 100vh;
         display: flex;
