@@ -54,7 +54,7 @@ h2{
     transition: .5s ease-in-out;
 }
 
-a:hover{
+.res:hover{
     background-color: #ffffff;
     color: #1d2025;
 }
@@ -460,7 +460,7 @@ a:hover{
         cursor: pointer;
         transition: 0.5s ease-in-out;
     }
-    
+
 
     .card-text{
         font-size: 10px;
