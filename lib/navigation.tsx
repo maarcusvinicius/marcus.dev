@@ -49,6 +49,12 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			href: 'https://github.com/maarcusvinicius',
 			external: true,
 		},
+		{
+			type: NavigationItemType.LINK,
+			icon: 'feather:download',
+			text: 'Currículo',
+			href: '',
+		},
 	],
 ];
 

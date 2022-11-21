@@ -4,7 +4,7 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				<link rel="icon" type="image/png" href="/favicon.png" />
+				<link rel="icon" type="image/png" href="/favicon.ico" />
 			</Head>
 			<body className="antialiased font-inter bg-gray-50 text-gray-500 dark:bg-gray-900 selection:(bg-gray-900 dark:bg-white text-white dark:text-primary-500)">
 				<Main />

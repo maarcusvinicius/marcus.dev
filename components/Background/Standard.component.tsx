@@ -43,9 +43,9 @@ export function Standard() {
 			log.error('Failed to initialize canvas', error);
 		}
 
-		const numParticles = 100;
-		const position = new Float32Array(numParticles * 3);
-		const random = new Float32Array(numParticles * 4);
+		const numParticles = 20;
+		const position = new Float32Array(numParticles * 5);
+		const random = new Float32Array(numParticles * 6);
 
 		for (let i = 0; i < numParticles; i++) {
 			position.set([Math.random(), Math.random(), Math.random()], i * 3);

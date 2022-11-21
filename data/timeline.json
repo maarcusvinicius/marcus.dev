@@ -1,76 +1,68 @@
 [
 	{
-		"date": "03-14-2022",
-		"title": "Started @ Wander",
-		"description": "Joined the Wander team",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Wander",
-			"url": "https://wander.com/"
-		}
-	},
-	{
-		"date": "10-22-2021",
-		"title": "Launched nuro.dev",
-		"description": "Successfully launched my newly re-designed portfolio",
+		"date": "11-20-2022",
+		"title": "Launched marcus.dev",
+		"description": "Lancei com sucesso meu novo portfólio redesenhado!",
 		"icon": "feather:award"
 	},
 	{
-		"date": "03-15-2021",
-		"title": "Started @ Attio",
-		"description": "Joined the Attio team",
-		"icon": "feather:briefcase",
+		"date": "05-24-2022",
+		"title": "I got promoted!",
+		"description": "Fui promovido para suporte desenvolvedor e auxiliar de produção de equipes!",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "02-14-2022",
+		"title": "Certificate!",
+		"description": "Finalizei meu curso de programação Full Stack!",
+		"icon": "feather:award",
 		"link": {
-			"text": "Visit Attio",
-			"url": "https://attio.com/"
+			"text": "Visit Curso ProgramadorBr",
+			"url": "https://programadorbr.com/"
 		}
 	},
 	{
-		"date": "11-16-2020",
-		"title": "Started @ Aiming.pro",
-		"description": "Joined the Aiming.pro team",
+		"date": "01-10-2022",
+		"title": "Freelancer",
+		"description": "Começei minha jornada como desenvolvedor Front End!",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "11-06-2021",
+		"title": "Create my Profile!",
+		"description": "Criei meu perfil e começei a ingressar na area de desenvolvimento Web!",
 		"icon": "feather:briefcase",
 		"link": {
-			"text": "Visit Aiming.pro",
-			"url": "https://aiming.pro/"
+			"text": "Visit perfil",
+			"url": "https://github.com/maarcusvinicius"
 		}
 	},
 	{
-		"date": "07-15-2020",
-		"title": "Graduated University!",
-		"description": "Successfully completed my Bachelor's Degree",
-		"icon": "feather:award"
-	},
-	{
-		"date": "10-11-2018",
-		"title": "First Developer Role",
-		"description": "Began an internship as a junior developer working at Stink Studios",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit Stink Studios",
-			"url": "https://stinkstudios.com/"
-		}
-	},
-	{
-		"date": "11-04-2016",
-		"title": "First Job!",
-		"description": "Began my first part-time job as a junior service desk analyist at CreeperHost",
-		"icon": "feather:briefcase",
-		"link": {
-			"text": "Visit CreeperHost",
-			"url": "http://creeperhost.net/"
-		}
-	},
-	{
-		"date": "09-10-2016",
-		"title": "Start University",
-		"description": "Began studying Computer Games Programming at Staffordshire University",
+		"date": "08-09-2021",
+		"title": "Start Studying",
+		"description": "Começei a estudar lógica de programação com Python no Curso em Video",
 		"icon": "feather:book"
 	},
 	{
-		"date": "08-09-1997",
+		"date": "11-04-2020",
+		"title": "First Job!",
+		"description": "Passei na entrevista para uma empresa de prestação de serviços digitais!",
+		"icon": "feather:briefcase",
+		"link": {
+			"text": "Visit Remote Machine",
+			"url": "https://videosnutellas.com.br/"
+		}
+	},
+	{
+		"date": "06-16-2020",
+		"title": "Init",
+		"description": "Começei minha jornada como Freelancer de editor de vídeos!",
+		"icon": "feather:briefcase"
+	},
+	{
+		"date": "06-27-2003",
 		"title": "Birthday!",
-		"description": "I was born the 9th of August 1997",
+		"description": "Eu nasci em 27 de Junho de 2003",
 		"icon": "feather:gift"
 	}
 ]

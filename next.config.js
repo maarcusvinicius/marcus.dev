@@ -32,11 +32,14 @@ const config = {
 			'cdn-cf-east.streamable.com',
 
 			// Unsplash
-			'source.unsplash.com',
 			'images.unsplash.com',
+			'www.androidauthority.com',
+			'leclaireur.fnac.com',
+			'img.freepik.com',
+			'www.blendernation.com',
 		],
 	},
-	// Inspired by: https://github.com/leerob/leerob.io/blob/main/next.config.js#L44-L81
+
 	async headers() {
 		return [
 			{

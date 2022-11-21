@@ -1,42 +1,43 @@
 ---
-banner_alt: A photo of a forest overlooking the bright white sky in the background
-banner: https://images.unsplash.com/photo-1494825514961-674db1ac2700?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
+banner_alt: Foto de uma floresta nevada
+banner: https://img.freepik.com/fotos-premium/estrada-da-floresta-com-neve-atraves-de-arvores-geladas-cobertas-de-neve-paisagem-de-inverno_174343-2365.jpg?w=900
 title_prefix: Introducing
 title: 👋🏻 Hello World
-description: This site has been long overdue a re-design & fresh lick of paint, so here's how I did it.
-date: '2021-10-22'
+description: Este novo estilo de vida foi longo e demorado, então aqui está como eu cheguei até aqui.
+date: '2021-08-09'
 ---
 
 ## :face_with_raised_eyebrow: What is this?
 
 ---
 
-This is my new Website! Built from the ground up with a whole new tech stack that I selected based on what I have learn't & been using over the past few months / years.
+Este é o meu novo estilo de vida! Construído desde o início com uma pilha de tecnologia totalmente nova que selecionei com base no que aprendi e usei nesses anos.
 
-So, with the amount of work that went into re-building my current website but with a whole new look & a whole bunch of new features & options, I thought now this would be a good change to show some of them off.
+Então, com a quantidade de trabalho que foi necessário para reconstruir meu perfil Front-End, uma aparência totalmente nova com vários novos recursos e opções, pensei que agora seria uma boa hora para mostrar alguns deles.
 
 ## :question: Why
 
 ---
 
-In short, it was long overdue. I usually try to update my personal portfolio website every year or so. I use it as an opportunity to experiment, try new tech, new ideas, etc. However, due to complications I kept delaying it, putting it off & just never doing it. However as of late I had a burst of motivation to get it done & launched. My previous portfolio site I deployed back in the beginning of 2019 & does look alright even today. However, it was built thick & fast using VuePress & mean't if I wanted to expand it & add new blog posts it was perfectly doable, but anything else would have taken a lot more work.
+Resumindo, demorou muito. Normalmente, tento atualizar meu perfil pessoal todos os anos. Eu uso isso como uma oportunidade mostrar o que venho usando, ver o quanto desenvolvi com novas ideias, etc. No entanto, devido a complicações, continuei adiando, adiando e nunca fazendo. No entanto, ultimamente, tive uma explosão de motivação para fazê-lo e lançá-lo. Inclusive meu site de portfólio anterior, implantado no início de 2021, parece bom até hoje. No entanto, foi construído grosso e rápido usando HTML com CSS e significa que se eu quisesse expandi-lo, era perfeitamente possível, mas qualquer outra coisa teria dado muito mais trabalho.
 
-So, having been a few years since my last portfolio website launch I decided to work with a blank slate & see what I could make from scratch.
+Então, depois de alguns meses desde o lançamento do meu último site de portfólio, decidi trabalhar com o que venho aprendendo, pegando como base, algumas inspirações nas comunidades que sou ativo!
 
 ## :hammer: Tech Stack
 
 ---
 
-The [project](https://github.com/nurodev/nuro.dev) built using the following tools & frameworks:
-
--   :atom_symbol: [React](https://reactjs.org/) / [Preact](https://preactjs.com/) (For Production)
+-   :atom_symbol: [React](https://reactjs.org/) / [React Native](https://reactnative.dev/) / [Preact](https://preactjs.com/) (For Production)
+-   :medal: [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+-   :globe_with_meridians: [TypeScript](https://www.typescriptlang.org/)
 -   :muscle: [Next.js](https://nextjs.org/)
     -   :mag: [next-seo](https://github.com/garmeeh/next-seo)
     -   :crescent_moon: [next-themes](https://github.com/pacocoursey/next-themes)
 -   :female-singer: [EmotionCSS](https://emotion.sh)
+-   :package: [Git](https://git-scm.com/) (For [GitBash](https://git-scm.com/downloads))
 -   :lipstick: [Twin.macro](https://github.com/ben-rogerson/twin.macro) (For [Tailwind CSS](https://tailwindcss.com/))
--   :tokyo_tower: [Tailwind UI](https://tailwindui.com/)
 -   :feather: [Feather Icons](https://feathericons.com/)
+-   :feather: [Phosphor Icons](https://phosphoricons.com/)
 -   :file_cabinet: [Hookstate](https://hookstate.js.org/)
 -   :+1: [react-use](https://github.com/streamich/react-use)
 
@@ -44,25 +45,47 @@ The [project](https://github.com/nurodev/nuro.dev) built using the following too
 
 ---
 
-I originally began planning, designing & building this ground up re-build at the beginning on 2021 but had to later shelf it for a while due to personal complications taking priority.
+Originalmente, comecei a planejar, projetar e construir esta reconstrução no início de 2022, ótimo para otimização, acho que diria que Vite e Next.js são meus pricipais ambientes de produção, de projetos pessoais.
 
-When development first began I was planning on building the site using [Vite](https://vitejs.dev/) & [Vue 3](https://vuejs.org/) as at the time I was, and still do, love Vite & Vue.js. However, since then I have learned how to utilize other tools to make even better products faster. [Next.js](https://nextjs.org/) being the most obvious one. Vite's hot module reloading (HMR) is insanely fast! To this day I do still think it is faster than Next.js (Even with the experimental ESModules feature flag enabled), however I was willing to make that trade off for the other features it offer out of the box compared to Vite.
-
-I love Vite & Vue.js, but for this project, and potentially future ones, I have fallen in love with Next.js because of how much it offers.
+Diante o meu desenvolvimento foi avançando, eu estava planejando construir projetos usando [Vite](https://vitejs.dev/) e [React](https://reactjs.org/), e ainda faço, adoro Vite & React. No entanto, desde então, aprendi a usar outras ferramentas para criar produtos ainda melhores e mais rápidos. [Next.js](https://nextjs.org/) sendo o mais óbvio. O hot module reloading (HMR) do Vite é incrivelmente rápido! Até hoje eu ainda acho que é mais rápido que o Next.js (mesmo com o sinalizador de recurso experimental ESModules ativado), no entanto, eu estava disposto a fazer essa troca pelos outros recursos que ele oferece fora da caixa em comparação com o Vite.
 
 ## :sparkles: Features
 
 ---
 
-With this new ground up re-build comes a whole host of new features & improvements.
+Como esta é minha nova reconstrução, vem uma série de novas técnicas e melhorias.
+
+### :muscle: Next.js
+
+---
+
+Lançado em 2016 sobre a licença MIT, o [Next.js](https://nextjs.org/).
+
+Em resumo, é um framework de código aberto, criado com [React](https://reactjs.org/) e permite o desenvolvimento de aplicações tanto front-end quanto back-end.
+
+```js:next.config.js
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+
+module.exports = (phase, { defaultConfig }) => {
+  if (phase === PHASE_DEVELOPMENT_SERVER) {
+    return {
+      /* desenvolvimento apenas opções de configuração aqui */
+    }
+  }
+
+  return {
+    /* opções de configuração para todas as fases, exceto desenvolvimento aqui */
+  }
+}
+```
 
 ### :atom_symbol: Preact
 
 ---
 
-A small feature that I often forget I added but helps a lot with bundle size, is [Preact](https://preactjs.com/).
+Um pequeno recurso que muitas vezes esqueço que adicionei, mas ajuda muito com o tamanho do pacote, é [Preact](https://preactjs.com/).
 
-In summary, my Next.js project is configured to replace [React](https://reactjs.org/) with Preact in production builds.
+Em resumo, meus projetos Next.js estam configurando para substituir [React](https://reactjs.org/) por Preact para melhores compilações de produção.
 
 ```js:next.config.js
 webpack: (config, { dev, isServer }) => {
@@ -78,170 +101,94 @@ webpack: (config, { dev, isServer }) => {
 },
 ```
 
-### :book: Blog
+### :lipstick: Tailwind
 
 ---
 
-As you can tell by the fact you're currently reading this, I now have a blog! :tada:
+Uma mão na roda de recurso que depois que adicionei em um dos meus projetos, não parei, ajuda muito com a parte de estilização do desenvolvimento, é [Tailwind](https://tailwindcss.com/).
 
-This means that I finally have a place to create lengthy articles that can go more in-depth on topics I care deeply about. Eveyrthing from technical write-ups on new technology I am experimenting with, to other personal posts on hobbies enjoy, such as mechanical keyboards.
+Em resumo, você adiciona a estilização dos componententes direto nas classes!
 
-<XButton href="/blog" icon="feather:external-link" label="Vist my Blog" />
+```js:index
+<div>
+  <p>
+    I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at
+    <a class="underline decoration-sky-500/30">My Company, Inc</a>.
+    Outside of work, I like to <a class="underline decoration-pink-500/30">watch
+    pod-racing</a> and have <a class="underline decoration-indigo-500/30">light-saber</a> fights.
+  </p>
+</div>
+```
 
-### :clipboard: Projects
+#### Instale Tailwind CSS
 
----
+Instale `tailwindcss` via npm e crie seu
+arquivo `tailwind.config.js`.
 
-My new [projects page](/projects) has been redesigns to utilize server-side rendering for a very unique purpose.
-The page will show a select number of projects that are publicly available on my GitHub repository. However, the way they are selected is very unique.
+```js:Terminal
+npm install -D tailwindcss
+npx tailwindcss init
+```
 
-Every request made for the page (That isn't already cached) will return a newly server-side rendered page that is later hydrated on the client (As all SSR does).
-When performing the render, the server will go out and fetch all of my available GitHub repositories & then filter down all of them based on a number of filters.
-These include the following:
+#### Configure seus caminhos de modelo
 
--   The repository isn't archived
--   Contains the `portfolio` topic in the repository meta data
+Adicione os caminhos a todos os seus arquivos de modelo
+em seu arquivo `tailwind.config.js`.
 
-From there we then strip out the emoji suffix used in the repository description (This is a common practice I do to add a touch of color :rainbow:) so it can then be used as the project icon, with the description then being returned with that stripped out emoji.
-The rest of the data returned is pretty standard (Homepage URL, GitHub repository URL, etc).
+```js:tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
-With this I can update the contents of my projects page by using GitHub as a form of CMS. All I will need to do to add a project to my projects page page is add the `portfolio` tag to any of my repositories.
+#### Adicione as diretivas Tailwind ao seu CSS
 
-![Screenshot of the projects page](/blog/hello_world/projects.png 'Screenshot of the projects page')
+Adicione as diretivas `@tailwind` para cada uma das diretivas
+do Tailwind camadas ao seu arquivo CSS principal.
 
-<XButton href="/projects" icon="feather:external-link" label="Go to Projects" />
+```js:src/input.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
 
-### :clock1: Timeline
+#### Inicie o processo de compilação da CLI do Tailwind
 
----
+Execute a ferramenta CLI para verificar seus arquivos de
+modelo para classes e construa seu CSS.
 
-When planning out my re-design I explored hundreds of portfolio websites. Some from big well known developers, to smaller less known devs. To very successfull designers, to students who have some really amazing looking sites so early on.
+```js:Terminal
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
 
-To quickly name a few that helped me a lot:
+#### Comece a usar o Tailwind no seu HTML ou componente
 
--   [jmswrnr.com](https://jmswrnr.com)
--   [leerob.io](https://leerob.io)
--   [maximeheckel.com](https://maximeheckel.com)
--   [phineas.io](https://phineas.io)
--   [wojtek.im](https://wojtek.im)
--   [www.joshwcomeau.com](https://www.joshwcomeau.com)
--   [www.stuart.re](https://www.stuart.re)
--   [www.twanmulder.com](https://www.twanmulder.com)
+Adicione seu arquivo CSS compilado ao `<head>` e comece usando
+as classes utilitárias do Tailwind para estilizar seu conteúdo.
 
-That last one in particular I wanted to thank for this feature as I found it as a really nice way to track & record big events without having to do a blog post every time.
-With a bit of technical planning & building I was able to put together a simple JSON structure that would allow me to simply add a new object with simple data about the event to add it to my timeline page. Most of the heavy lifting of which is done by [Next.js's static site generation (SSG)](https://nextjs.org/blog/next-9-3#next-gen-static-site-generation-ssg-support).
+```js:src/index.html
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+```
 
-<XButton href="/timeline" icon="feather:external-link" label="Go to Timeline" />
-
-### :link: Referrals
-
----
-
-A lot of companies now days offer a referral system. Everyone from big companies like Amazon & Tesla (Sadly they just ended it), to smaller startups like [FreeTrade](https://freetrade.io/) & [Klima](https://klima.com/).
-
-With more & more companies offering referral rewards, what better place to share mine than on my personal website ¯\\\_(ツ)\_/¯
-
-This page is built almost identically to my [timeline](/timeline) page whereby a JSON structure is used to store the data that is then compiled at build time into a static page.
-
-![Screenshot of the referrals page](/blog/hello_world/referrals.png 'Screenshot of the referrals page')
-
-<XButton href="/referrals" icon="feather:external-link" label="Go to Referrals" />
-
-### :red_circle: Status
-
----
-
-This next feature I am super happy with how it turned out & a HUGE credit has to go to [@phineyes](https://twitter.com/phineyes) for his work on building & hosting [Lanyard](https://github.com/Phineas/lanyard), a service to expose your Discord presence via a RESTful API or WebSocket.
-
-Using Lanyard I was able to build a live status widget & indicator component(s) that mean, as long as I am online on Discord, anyone is able to view what I am listening to on Spotify, what game I'm playing or even whatever I am coding thanks to a Visual Studio Code extension that adds rich presence to Discord.
-
-![Status Widget in action](/blog/hello_world/lanyard.gif 'Status Widget in action')
-
-<XButton href="/status" icon="feather:external-link" label="Go to Status" />
-
-### :crescent_moon: Theme
-
----
-
-A very common feature now days is offering multiple themes for an application. My previous site iteration was no stranger to this as it would switch between light & dark themes based on the users system preference. This worked very well, until you wanted to manually override is. As such I have, again, added both light & dark modes as I did before, but this time offer a way to manually override this setting from your system setting.
-
-### :speaker: Sound
-
----
-
-A fair few of the portfolio websites I looked at always had a nice touch of flair & one such touch I always found that I really liked was sound. Nothing crazy like playing music in background the whole time, but instead just subtle sound effects like button clicks, etc.
-
-It's a small addition, built using [`use-sound`](https://github.com/joshwcomeau/use-sound), that adds some depth & makes the site feel much more interactive.
-
-Currently the click sound is the only sound effect... For now. In the future I would like to experiment adding more sound effects to the site to continue expanding the feature. One such sound effect I have in mind I plan on looking into in the future is a envelope opening sound for when opening a blog post, or something similar? Not too sure yet but a nice idea I feel.
-
-### :wheelchair: Accessibility
+### :link: Finishing
 
 ---
 
-The final fea... Well, kind of a feature but more of a much needed improvement has been accessibility.
-
-My previous website iteration met a lot of the minimum requirements for basic accessibility, however it could have been a lot better. Since the launch of that site I have learn't a LOT about the importance of accibility when designing & building websites / applications. As such I wanted to do my very best when building this one to improve it & make it as accessible as possible.
-
-Here are some of the notable accessibility features/improvements:
-
-#### Alt tags
-
----
-
-Something small but very noticible is adding alt tags or `aria-label`'s where possible. This includes any & all images and buttons. This way screen readers are able to actually understand what the element is & read it back to the user.
-
-#### Focus Highlights
-
----
-
-Primarily brought to my attention by the work of Discord via there [`focus-rings`](https://github.com/discord/focus-rings) package & [TailwindCSS](https://tailwindcss.com/) offering a new `ring` style system aimed at helping with focus visiblity & accessibility.
-
-![Focus ring](/blog/hello_world/focus.png 'Focus ring')
-
-#### Keyboard navigation
-
----
-
-While not complete coverage, I aimed to offer complete or near complete keyboard navigation as it can aid with accesibility systems by ensuring that all items both can be navigated to at all, but also in the order you need.
-
-![Focus ring switching between buttons](/blog/hello_world/keyboard_nav.gif 'Focus ring switching between buttons')
-
-#### Reduced Motion
-
----
-
-When implementing my very pretty & fancy looking particles background, I started to consider the performance & accessibility implications of offering such animations. As such I began researching into motion & animation accesbility in the web.
-
-From there I found out about the [`prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) CSS media query. By defualt when my site first loads, the initial state of the `animations` setting will default to whatever this query provides. If for whatever reason though this fails you are still always able to toggle off animations manually via the settings icon in the top right at all times.
-
-With this setting I am toggle not only the background aniamtion graphic off, but also toggle off the transitions that are wrapping several components on several pages.
-
-### Settings toggles
-
----
-
-Following from the reduced motion toggle mention above, the settings dropdown, which is always located in the top right of the screen, also contains toggle buttons (Both displaying an icon to represent the icon as well as a checked icon to represent its current state) for toggling between light & dark theme, as well as to toggle sound effects.
-
-### Caveats
-
----
-
-While I have tried to put in a good amount of time trying to add accessibility options & be as accomadating as possible, it is still not perfect.
-
-Here are some ways I still want to eventually improve the accessibilty even further:
-
--   Reduced motion event listener updates settings `animations` state
--   Improve animated background performance by using `GPGPU` from [`ogl`](https://oframe.github.io/ogl/examples/)
--   Set theme back to using system theme instead of user override
--   Many more to come
-
-I will always try to improve accessibility where possible. If you feel I am missing a key feature of accessibility, please reach out, let me know & educate me on its importance so I can try enforce its use in future & in other projects.
-
-## The Result
-
----
-
-And with all of that, we have the final result of what you are looking at right now!
-
-![A screenshot of nuro.dev](/blog/hello_world/screenshot.png 'A screenshot of nuro.dev')
+Isto é um pouco das muitas novidades que passei, espero que no próximo ano, venho atualizar este blog e ver até onde consegui chegar, quero agradecer a todos os presentes até agora e espero conhecer e participar de mais eventos para espalhar tecnologias e informações que vejo que tem a possibilidade de mudar nosso futuro!
