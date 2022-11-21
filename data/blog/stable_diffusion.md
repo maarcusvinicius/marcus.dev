@@ -43,15 +43,19 @@ Para que isso funcione, precisamos de duas coisas principais: [Python](https://w
 
 Começando, configuramos o ambiente como quisermos que seja criado à imagem, e como principal o texto que o computador deve se basear ou subir uma imagem sua, na aba `img2img`.
 
-Aqui vou mostrar alguns dos meus testes:
-
 ![label_1](/blog/stable_diffusion/label_1.png)
+
+Com a mesma imagem, alguns outros resultados em diferentes testes:
+
+<center>
 
 ![label_perfil_1](/blog/stable_diffusion/label_perfil_1.png)
 
 ![label_perfil_2](/blog/stable_diffusion/label_perfil_2.png)
 
 ![label_perfil_3](/blog/stable_diffusion/label_perfil_3.png)
+
+</center>
 
 ## :white_check_mark: Conclusão
 
