@@ -35,15 +35,15 @@ export default function App({ Component, pageProps }: AppProps) {
 		router.events.on('routeChangeComplete', () => NProgress.done());
 		router.events.on('routeChangeError', () => NProgress.done());
 
-		// if (process.env.NODE_ENV === 'production')
-		// 	splitbee.init({
-		// 		disableCookie: true,
-		// 	});
+		if (process.env.NODE_ENV === 'production')
+			splitbee.init({
+				disableCookie: true,
+			});
 	});
 
 	return (
 		<ThemeProvider attribute="class" defaultTheme={Theme.SYSTEM} themes={Object.values(Theme)}>
-			{/* <Analytics /> */}
+			<Analytics />
 			<Component {...pageProps} />
 			<style jsx global>{`
 				#nprogress .bar {
