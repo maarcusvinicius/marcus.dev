@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 export function ElementsStyles() {
 	return (
 		<style global jsx>

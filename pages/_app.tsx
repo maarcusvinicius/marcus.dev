@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import NProgress from 'nprogress';
 import splitbee from '@splitbee/web';
 import { Analytics } from '@vercel/analytics/react';
