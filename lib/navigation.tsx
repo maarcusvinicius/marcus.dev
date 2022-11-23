@@ -1,6 +1,5 @@
 import { useTheme } from 'next-themes';
 
-import { Status } from '~/components';
 import { usePersistantState, useStatus } from '~/lib';
 
 import { NavigationItemType, Theme } from '~/types';
@@ -53,7 +52,8 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:download',
 			text: 'Currículo',
-			href: '',
+			href: 'https://drive.google.com/file/d/1_R5AFthu2SStaLCuM5Ztf6F20NOq5lOt/view?usp=share_link',
+			external: true,
 		},
 	],
 ];
@@ -61,23 +61,10 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 export function useNavigation() {
 	const state = usePersistantState();
 	const { animations: background, sound } = state.get();
-	const { color, loading, status } = useStatus();
 	const { theme, setTheme } = useTheme();
 
 	const menuItems: NavigationItems = [
 		...staticMenuItems,
-		...(!loading && status.discord_status !== 'offline'
-			? [
-				[
-					{
-						type: NavigationItemType.LINK,
-						icon: <Status.Indicator color={color} pulse />,
-						text: 'Status',
-						href: '/status',
-					} as NavigationItem,
-				],
-			]
-			: []),
 	];
 
 	const settingsItems: NavigationItems = [
