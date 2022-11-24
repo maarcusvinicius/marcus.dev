@@ -117,7 +117,7 @@ Como a maioria dos desenvolvedores, tive mais ideias do que tempo para construí
 
 Por enquanto, estou mirando baixo, pois nunca lancei ou lancei um produto grande antes, então será bom pegar uma boa experiência e usá-lo no meu futuro, não apenas como fazê-lo, mas como fazê-lo crescer mais a cada ano!
 
-Veja [FastFriends](https://FastFriends.com/) e [Championship](http://Championship.com/) minhas mais recentes ferramentas em 2022.
+Veja [FastFriends](https://github.com/maarcusvinicius/Fast-Delivery) e [Championship](https://github.com/maarcusvinicius/Championship) minhas mais recentes ferramentas em 2022.
 
 ### :crystal_ball: Future
 

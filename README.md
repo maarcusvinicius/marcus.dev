@@ -41,7 +41,7 @@ $ npm install / yarn
 $ npm run / yarn run
 ```
 
-A aplicação pode ser acessada em [`localhost:#`]()
+A aplicação pode ser acessada em [`localhost:#`](localhost:#)
 
 <br />
 
@@ -53,7 +53,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -   [Next.js](https://nextjs.org/)
 -   [TypeScript](https://www.typescriptlang.org/)
 -   [Tailwindcss](https://tailwindcss.com/)
--   [Node e NPM](https://nodejs.org/)
+-   [Yarn](https://yarnpkg.com/)
 
 <br />
 
