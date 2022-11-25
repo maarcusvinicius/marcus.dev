@@ -45,7 +45,7 @@ export default function HomePage() {
 	const isBirthday =
 		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
 
-	const description = `I am a ${age} year old frontend engineer`;
+	const description = `I am a front-end developer engineer`;
 
 	return (
 		<Layout.Default>
