@@ -1,7 +1,5 @@
 import { useTheme } from 'next-themes';
 
-import { usePersistantState, useStatus } from '~/lib';
-
 import { NavigationItemType, Theme } from '~/types';
 
 import type { NavigationItem, NavigationItems } from '~/types';
@@ -59,7 +57,6 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 ];
 
 export function useNavigation() {
-	const state = usePersistantState();
 	const { theme, setTheme } = useTheme();
 
 	const menuItems: NavigationItems = [

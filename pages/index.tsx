@@ -1,20 +1,11 @@
-import dynamic from 'next/dynamic';
-import { differenceInYears } from 'date-fns';
 import { Icon } from '@iconify/react';
 
 import { Animate, Button, Pill } from '~/components';
-import { EventType, NavigationItemType } from '~/types';
+import { NavigationItemType } from '~/types';
 import { Layout } from '~/layouts';
 
-import type { EventProps } from '~/components/Event.component';
 import type { NavigationItem } from '~/types';
 
-const Event = dynamic<EventProps>(
-	() => import('~/components/Event.component').then(({ Event }) => Event),
-	{
-		ssr: false,
-	},
-);
 
 const ACTIONS: Array<NavigationItem> = [
 	{
@@ -39,17 +30,10 @@ const ACTIONS: Array<NavigationItem> = [
 ];
 
 export default function HomePage() {
-	const today = new Date();
-	const birthday = new Date('2003-08-09');
-	const age = differenceInYears(today, birthday);
-	const isBirthday =
-		today.getDate() === birthday.getDate() && today.getMonth() === birthday.getMonth();
-
 	const description = `I am a web developer engineer`;
 
 	return (
 		<Layout.Default>
-			{isBirthday && <Event event={EventType.BIRTHDAY} />}
 			<div className="min-h-screen flex items-center justify-center py-12">
 				<div className="max-w-md sm:max-w-lg md:sm:max-w-2xl lg:sm:max-w-3xl w-full space-y-8 text-center">
 					<Animate

@@ -28,7 +28,6 @@ export const getStaticProps: GetStaticProps<TimelineProps> = async () => {
 export default function TimelinePage({ timeline: rawTimeline }: TimelineProps) {
 	const timeline = rawTimeline.map((event) => ({
 		...event,
-		// Note: Custom parser needed as Safari on iOS doesn't like the standard `new Date()` parsing
 		date: parse(event.date.toString(), 'MM-dd-yyyy', new Date()),
 	}));
 

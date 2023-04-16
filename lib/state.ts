@@ -22,7 +22,6 @@ export function usePersistantState() {
 	useEffect(() => {
 		state.attach(persistance);
 
-		// @TODO Add event listener to handle switching dynamically
 		if (state.get().animations === null)
 			state.set((state) => ({
 				...state,
