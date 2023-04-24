@@ -1,28 +1,28 @@
 ---
-banner_alt: A foto do ano, com mundo digital 2022
+banner_alt: The photo of the year, with digital world 2022
 banner: https://leclaireur.fnac.com/wp-content/uploads/2022/01/shutterstock-2044798868.jpg
 title: 2022 in review
-description: Foi um longo ano e muita coisa aconteceu, então eu queria recapitular tudo!
+description: It's been a long year and a lot has happened, so I wanted to recap it all!
 date: '2022-11-20'
 ---
 
-Em um piscar de olhos, o ano acabou. Com o fim do ano, vem a retrospectiva do ano.
+In the blink of an eye, the year is over. With the end of the year comes the year-end review.
 
-## :family: Pessoas
+## :family: People
 
 ---
 
-A vida é muito difícil para qualquer um, mas com o passar dos anos, parece ficar cada vez mais difícil. Mais a fazer, não há tempo suficiente para fazê-lo. Dito isso, porém, há uma coisa que sempre pode ajudá-lo em tudo isso. Amigos.
+Life is tough for everyone, but as the years go by, it seems to get even tougher. There's more to do, and not enough time to do it. That being said, there's one thing that can always help you through it all: friends.
 
-Como na maioria dos anos, não sei onde estaria sem alguns dos meus amigos e familiares mais próximos para me ajudar em alguns dos momentos realmente difíceis que a vida joga em você. Em comparação com o ano passado, não foi nem de longe tão difícil, mas ainda assim teve seu quinhão de altos e baixos.
+Like most years, I don't know where I would be without some of my closest friends and family to help me through some of life's really tough moments. Compared to last year, it wasn't nearly as difficult, but it still had its fair share of ups and downs.
 
-Quero dedicar um momento para agradecer meu mentor [Glauber](https://www.linkedin.com/in/glaubermagal/), um desenvolvedor Sênior que apostou em mim!
+I want to take a moment to thank my mentor [Glauber](https://www.linkedin.com/in/glaubermagal/), a senior developer who believed in me!
 
-Conheci ele em uma comemoração familiar, onde ele foi convidado por meu pai pois era um dos nossos novos vizinhos, eu ainda estava no meu 3 ano do Ensino Medio, chamei ele para conversar sobre futuro e acabou mencionando sobre seu mundo digital cheios de códigos e fiquei facinado pelo o que eu ouvia, conversamos por horas e falei de mim para ele, que não tinha planos, estava perdido sobre o que trabalhar e ser no futuro. Perguntei se ele me ajudava a ver está área mais de perto e começar a estudar sobre com ele, realmente me abriu os olhos, sempre que o vejo de frente e pensamos no que passamos neste dia, eu agradeço a ele.
+I met him at a family celebration, where he was invited by my dad because he was one of our new neighbors. I was still in my 3rd year of high school and I asked him to talk about the future, and he mentioned his digital world full of codes and I was fascinated by what I heard. We talked for hours and I opened up to him, telling him that I didn't have any plans, I was lost about what to work on and be in the future. I asked if he could help me get a closer look at this area and start studying it with him, and he really opened my eyes. Whenever I see him and think about what we went through that day, I thank him.
 
-Me ajudou em tudo, dedicação, esforço, companheirismo e amigo!
+He helped me with everything: dedication, effort, companionship, and friendship!
 
-**Obrigado pela oportunidade :heart:**
+**Thanks for the opportunity :heart:**
 
 ![A photo Glauber](/blog/2022_in_review/glauber.png)
 
@@ -30,13 +30,13 @@ Me ajudou em tudo, dedicação, esforço, companheirismo e amigo!
 
 ---
 
-Agora, para quem não me conhece, sou bem introvertido.
-Para mim, especialmente à medida que fui me desenvolvendo, descobri que a vida está sempre se movendo tão rápido e com tantas coisas acontecendo ao mesmo tempo que qualquer chance que eu possa ter para desacelerar, aproveitar o momento e ter boas lembranças, eu irei pegar.
+Now, for those who don't know me, I'm quite introverted.
+Especially as I've developed, I've discovered that life is always moving so fast and with so many things happening at the same time that any chance I have to slow down, enjoy the moment, and make good memories, I will take it.
 
-Para não dizer que muita coisa não aconteceu em 2022, mas como a maioria dos anos é agora, a maioria das minhas melhores experiências e memórias são com amigos online, não indo a algum lugar fazer algo.
+Not to say that a lot didn't happen in 2022, but like most years now, most of my best experiences and memories are with online friends, not going somewhere to do something.
 
-As memórias mais frequentes que tenho são clipes salvos de jogos jogados com amigos. No ano passado ou 2, isso foi mais proeminente [ Rainbow Six](https://www.ubisoft.com/pt-br/game/rainbow-six/siege).<br/>
-Aqui estão apenas alguns dos meus clipes favoritos do ano passado jogando Rainbow Six com meus amigos:
+The most frequent memories I have are saved clips from games played with friends. In the past year or 2 this has been more prominent [ Rainbow Six](https://www.ubisoft.com/pt-br/game/rainbow-six/siege).<br/>
+Here are just some of my favorite clips from last year playing Rainbow Six with my friends:
 
 <XStreamable id="2l4yn7" title="Most Game" />
 <XStreamable id="n1wbrk" title="Kills" />
@@ -46,25 +46,25 @@ Aqui estão apenas alguns dos meus clipes favoritos do ano passado jogando Rainb
 
 ---
 
-O ano passado foi meu último ano de educação adicional quando finalmente finalizei meu curso Fullstack. Com isso entrando em 2022, finalmente consegui trabalhar em período integral e ganhar a vida com um salário.
+Last year was my last year of additional education as I finally finished my Fullstack course. With that going into 2022, I was finally able to work full time and earn a living on a paycheck.
 
-Como tal, houve uma série de compras maiores feitas este ano que finalmente consegui fazer após anos de planejamento. Existe 1 compra principal na qual quero me concentrar:
+As such, there have been a number of bigger purchases made this year that I finally got around to after years of planning. There is 1 main purchase I want to focus on:
 
-### :racing_motorcycle:​ Moto
+### :racing_motorcycle:​ Motorcycle
 
-Depois de anos de espera, finalmente comprei [a minha moto]().
+After years of waiting, I finally bought it [my motorcycle]().
 
-Antes disso, nunca tive um veículo motorizado, mas finalmente chegou a minha vez. Tudo, desde quando eu estava na escola, desejava esse bem! Não foi fácil, mas a persistência sempre tomou conta de mim e hoje sei que tudo valeu a pena! Meu sonho de infância, JarvaScript que me deu!
+Before that, I never owned a motor vehicle, but finally it was my turn. Everything from when I was at school wished for this good! It wasn't easy, but persistence always took care of me and today I know it was all worth it! My childhood dream, JarvaScript it gave me!
 
-![A photo of my motocyclye](/blog/2022_in_review/motocycle.png 'A photo of my motocyclye')
+![A photo of my motocrycle](/blog/2022_in_review/motocycle.png 'A photo of my motocrycle')
 
 ### :computer:​ Notebook
 
-Depois de anos de espera, finalmente comprei [meu notebook]().
+After years of waiting, I finally bought it [my notebook]().
 
-Antes disso, eu usava um notebook Asus X540MA de 15" que me serviu bem limitado ao longo dos anos, e infelizmente começou a mostrar sua idade. Tudo, desde a degradação geral do desempenho até a duração da bateria em menos de algumas horas (mesmo depois de substituição recente da bateria). No entanto, o problema mais fundamental com o dispositivo, como aqueles que já podem adivinhar, é o teclado.
+Prior to that, I was using a 15" Asus X540MA notebook that served me pretty limitedly over the years, and unfortunately started to show its age. Everything from general performance degradation to battery life in less than a few hours (even after recent battery replacement) However, the most fundamental problem with the device, as those who can already guess, is the keyboard.
 
-Com um pouco de economia, consegui finalmente puxar o gatilho em julho de 2021 para comprar um novo Notebook Avell A62 LIV preto com um processador Intel I7 10th gen junto com uma placa de video RTX 2060, de especificação superior e 32 GB de RAM. Depois de receber o dispositivo cerca de um mês depois, estou muito feliz com o dispositivo e acredito que é uma das melhores compras que fiz para minha produtividade em muito tempo.
+With a bit of savings, I was finally able to pull the trigger in July 2021 to buy a new black Avell A62 LIV Notebook with a 10th gen Intel I7 processor along with a higher specification RTX 2060 graphics card and 32 GB of RAM. After receiving the device about a month later I am very happy with the device and believe it is one of the best purchases I have made for my productivity in a long time.
 
 ![A photo of my pc](/blog/2022_in_review/avell-a62-liv-de-lado.png 'A photo of my pc')
 
@@ -72,11 +72,11 @@ Com um pouco de economia, consegui finalmente puxar o gatilho em julho de 2021 p
 
 ---
 
-Peguei COVID. Por mais seguro e precavido que eu estivesse, acabei testando positivo.
+I got COVID. As safe and cautious as I was, I ended up testing positive.
 
-Em junho de 2022, saí de férias para praia com alguns amigos. Infelizmente, um desses amigos testou positivo e, alguns dias depois, eu também. Após 3 semanas em quarentena, nariz escorrendo e uma enxaqueca brutal depois, me recuperei com sucesso e comecei a testar negativo novamente.
+In June 2022, I went on a beach vacation with some friends. Sadly, one of those friends tested positive, and a few days later, so did I. After 3 weeks in quarantine, runny nose and a brutal migraine afterwards, I successfully recovered and started testing negative again.
 
-Eu me considero sortudo. Sorte no sentido de que sinto que consegui mais fácil em comparação com a maioria. Considerando minha idade, sinto que naturalmente não me afetaria tanto quanto a maioria, mas muitos outros não tiveram tanta sorte depois de testar positivo.
+I consider myself lucky. Lucky in the sense that I feel like I got it easier compared to most. Considering my age, I feel like it naturally wouldn't affect me as much as most, but many others haven't been so lucky after testing positive.
 
 ## :mag: Top Learnings
 
@@ -84,72 +84,72 @@ Eu me considero sortudo. Sorte no sentido de que sinto que consegui mais fácil 
 
 ### :moneybag: Investments
 
-Eu realmente me aprofundei em investir meu dinheiro este ano depois de começar a aprender mais sobre isso no ano passado.
+I really got into investing my money this year after starting to learn more about it last year.
 
-Este ano, li vários artigos, guias e muito mais, além de assistir a vários YouTubers financeiros, como [Primo Rico](https://www.youtube.com/channel/UCT4nDeU5pv1XIGySbSK-GgA) e [Humphrey Yang](https://www.youtube.com/watch?v=ea6qNsLbxNA&ab_channel=HumphreyYang), que foram ótimos em me ajudar, não apenas alguns conceitos fundamentais de investimento, mas também repassar algumas das tendências e condições atuais do mercado.
+This year, I've read tons of articles, guides, and more, as well as watched tons of financial YouTubers such as [Primo Rico](https://www.youtube.com/channel/UCT4nDeU5pv1XIGySbSK-GgA) and [Humphrey Yang](https://www.youtube.com/watch?v=ea6qNsLbxNA&ab_channel=HumphreyYang), who were great in helping me with not only some fundamental investing concepts, but also going over some of the current market trends and conditions.
 
-Muito disso eu gostaria de ter aprendido na escola e ter sido ensinado em uma idade mais jovem. Mas a maioria das escolas, tanto quanto sei, ensina quase nenhuma ou literalmente nenhuma educação financeira. Mesmo explicando o básico de coisas como "O que é uma hipoteca?", "O que é uma pontuação de crédito?", etc, são coisas que mais pessoas deveriam aprender na escola.
+Much of this I wish I had learned in school and been taught at a younger age. But most schools, as far as I know, teach almost no or literally no financial education. Even explaining the basics of things like "What is a mortgage?", "What is a credit score?", etc. are things more people should learn in school.
 
 ### :globe_with_meridians: Web Development
 
-Tendo passado o último ano em casa estudando, passando a trabalhar em tempo integral home office como desenvolvedor fullstack / web significa que tive que aprender muito no ano passado. Tudo, desde realmente colocar minhas primeiras mãos em um ambiente de back-end de produção. Aprendendo a construir e usar componentes React mais complexos. Mesmo começando a finalmente começar a usar o SQL, uma linguagem da qual sempre ouvi falar e vi, mas apenas toquei algumas vezes antes.
+Having spent the last year at home studying, moving to a full-time home office job as a fullstack/web developer means I've had a lot to learn in the last year. Everything from actually getting my first hands on a production backend environment. Learning to build and use more complex React components. Even starting to finally start using SQL, a language I've always heard of and seen but only touched a few times before.
 
-Muito pode ser aprendido com a prática de uma base de código de produção.
+A lot can be learned from practicing a production codebase.
 
 ### :clipboard: Team Management
 
-Eu gostei muito de começar a ajudar meus companheiros de trabalho. Desde quando pequei uma promoção na empresa que trabalho, tive uma nova perspectiva profissional ouvindo mais como são os ambientes e técnicas dos meus companheiros! Seja para algo baseado em desenvolvimento [Tailwind](https://tailwindcss.com/) ou algo mais pessoal como usar o [Notion](https://www.notion.so/) para criar uma simples lista de lembretes diários de tudo que preciso fazer naquele dia.
+I really enjoyed starting to help my co-workers. Ever since I got a promotion at the company I work for, I've had a new professional perspective by listening to more about the environments and techniques of my teammates! Whether it's something development-based [Tailwind](https://tailwindcss.com/) or something more personal like using [Notion](https://www.notion.so/) to create a simple list of daily reminders everything I need to do that day.
 
-Muito do que eu fazia antes era escrever rapidamente algo em um post-it para não esquecer. Mas acabei com uma mesa e um monitor cheios deles. Portanto, estou feliz por finalmente ter aprendido a adotar uma abordagem melhor para gerenciar tarefas e trabalhos que faço do que esquecer tarefas ou ter uma mesa de arco-íris feita de notas adesivas.
+A lot of what I used to do was quickly write something on a sticky note so I wouldn't forget. But I ended up with a desk and monitor full of them. So I'm glad I finally learned how to take a better approach to managing the tasks and work I do than forgetting assignments or having a rainbow desk made out of sticky notes.
 
 ## :dart: Targets
 
 ---
 
-É sempre bom tentar fazer algumas metas para si mesmo para o futuro.
-Entrando em 2023, tenho algumas áreas-chave que gostaria de focar em melhorar:
+It's always good to try to make some goals for yourself for the future.
+Going into 2023, I have a few key areas I'd like to focus on improving:
 
 ### :airplane: Ambition
 
-No ano passado, comecei a seguir e ver mais sobre a comunidade de hackers indie. Bootstrapers, freelancers e aqueles que constroem projetos incríveis do nada. Isso me impressiona com o trabalho incrível que está sendo feito pela comunidade.
+Last year I started to follow and see more about the indie hacking community. Bootstrapers, freelancers and those who build amazing projects from scratch. It blows my mind with the incredible work being done by the community.
 
-Como a maioria dos desenvolvedores, tive mais ideias do que tempo para construí-las. Muitas ideias, pouco tempo.
+Like most developers, I had more ideas than time to build them. Lots of ideas, little time.
 
-Por enquanto, estou mirando baixo, pois nunca lancei ou lancei um produto grande antes, então será bom pegar uma boa experiência e usá-lo no meu futuro, não apenas como fazê-lo, mas como fazê-lo crescer mais a cada ano!
+For now I'm aiming low as I've never launched or released a big product before, so it'll be nice to take a good experience and use it in my future, not just how to make it, but how to make it grow more every year!
 
-Veja [FastFriends](https://github.com/maarcusvinicius/Fast-Delivery) e [Championship](https://github.com/maarcusvinicius/Championship) minhas mais recentes ferramentas em 2022.
+See [FastFriends](https://github.com/maarcusvinicius/Fast-Delivery) and [Championship](https://github.com/maarcusvinicius/Championship) my latest tools in 2022.
 
 ### :crystal_ball: Future
 
-Sei o que quero hoje, mas sei que o caminho é difícil, próprios programadores falam a tal dificuldade, mas com ajuda do meu mentor mencionado no começo, quero me tornar um programador Senior.
+I know what I want today, but I know that the path is difficult, programmers themselves speak to such difficulty, but with the help of my mentor mentioned at the beginning, I want to become a Senior programmer.
 
-Vim a está área mostrar e dar de exemplo minha diciplina e dedicação! Quero fazer a diferença no mundo digital e dar meu melhor onde eu estiver, já trabalhei com equipe e com essa experiencia, decido colocar pra frente e encontrar novos erros de código para solucionar!
+I came to this area to show and set an example of my discipline and dedication! I want to make a difference in the digital world and do my best wherever I am, I've already worked with a team and with that experience, I decide to put it forward and find new code errors to solve!
 
 ### :skull: Work Ethic
 
-Muitas vezes me encontro entre 2 estados de trabalho. Aquele em que me sinto muito cansado e outro sendo um workaholic puro, onde acabo levando meus limites mentais e físicos ao limite e trabalhando mais de 12 horas por dia.<br />
-Um excelente exemplo disso foi em 2022, durante meu processo de cargo onde tive que ajudar as equipes a solucionar suas demandas, tendo as minhas e as dos meus companheiros para acompanhar. No auge da pandemia, nunca me esquecerei de uma amiga
-muito próxima a mim, hoje minha namorada, Isabelle, estando em ligações comigo todos os dias, me ajudando a me estabelecer mentalmente e espiritualmente.
+I often find myself between 2 working states. One where I feel really tired and another being a pure workaholic where I end up pushing my mental and physical limits to the limit and working 12+ hours a day.<br />
+An excellent example of this was in 2022, during my tenure process, where I had to help teams resolve their demands, having mine and those of my teammates to follow up. At the height of the pandemic, I will never forget a friend
+very close to me, today my girlfriend, Isabelle, being in connections with me every day, helping me settle down mentally and spiritually.
 
-Porém normalmente sempre consigo encontrar um bom equilíbrio entre trabalho e vida pessoal, onde seja capaz de administrar meu tempo com eficiência, fazer o trabalho que precisa ser feito, mas também não destruir minha saúde mental e física no processo.
+But I usually always manage to find a good work-life balance where I'm able to manage my time efficiently, get the work done that needs to be done, but also not destroy my mental and physical health in the process.
 
 ### :clipboard: Others
 
 There's a few other smaller targets I'd also like to aim for:
 
--   Contribuir em mais projetos de código aberto :green_heart:
--   Experiência com gerador de imagens Stable Difusion
--   Buscar aperfeiçoamento em backend para futuros projetos
--   Aperfeiçoamento no meu inglês para um dia viajar para fora
--   Começe a mudar do GSuite para alternativas auto-hospedadas e/ou mais focadas na privacidade
--   Experimentar e aprenda um novo idioma enquanto o passarinho do [Duolingo](https://www.duolingo.com/) me observa enquanto durmo
+-   Contribute to more open source projects :green_heart:
+-   Experience with Stable Difusion imager
+-   Seek improvement in backend for future projects
+-   Improvement in my English to travel abroad one day
+-   Start switching from GSuite to self-hosted and/or more privacy-focused alternatives
+-   Try and learn a new language while the [Duolingo](https://www.duolingo.com/) bird watches me while I sleep
 
 ---
 
-E é isso. Isso é um embrulho para 2022.
+And that's it. That's a wrap for 2022.
 
-Este ano teve seu quinhão de solavancos ao longo do caminho, mas nada em comparação com o que o mundo suportou no ano passado.
+This year has had its fair share of bumps along the way, but nothing compared to what the world endured last year.
 
-Para terminar, quero agradecer a todos aqueles com quem passei o ano. Amigos, novos e antigos, especialmente por ajudarem a tornar a vida um pouco mais fácil e suportável para mim.
+Finally, I want to thank everyone with whom I spent the year. Friends, new and old, especially for helping to make life a little easier and more bearable for me.
 
 **Vejo todos vocês em 2023**:wave:

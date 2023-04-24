@@ -1,9 +1,9 @@
 ---
-banner_alt: Foto de uma floresta nevada
+banner_alt: Photo of a snowy forest
 banner: https://img.freepik.com/fotos-premium/estrada-da-floresta-com-neve-atraves-de-arvores-geladas-cobertas-de-neve-paisagem-de-inverno_174343-2365.jpg?w=900
 title_prefix: Introducing
 title: 👋🏻 Hello World
-description: Este novo estilo de vida foi longo e demorado, então aqui está como eu cheguei até aqui.
+description: This new lifestyle has been long and drawn out, so here's how I got here.
 date: '2021-08-09'
 ---
 
@@ -11,17 +11,17 @@ date: '2021-08-09'
 
 ---
 
-Este é o meu novo estilo de vida! Construído desde o início com uma pilha de tecnologia totalmente nova que selecionei com base no que aprendi e usei nesses anos.
+This is my new lifestyle! Built from the ground up with an entirely new technology stack that I curated based on what I've learned and used over the years.
 
-Então, com a quantidade de trabalho que foi necessário para reconstruir meu perfil Front-End, uma aparência totalmente nova com vários novos recursos e opções, pensei que agora seria uma boa hora para mostrar alguns deles.
+So with the amount of work that went into rebuilding my Front-End profile, a brand new look and feel with loads of new features and options, I thought now would be a good time to show you some of them.
 
 ## :question: Why
 
 ---
 
-Resumindo, demorou muito. Normalmente, tento atualizar meu perfil pessoal todos os anos. Eu uso isso como uma oportunidade mostrar o que venho usando, ver o quanto desenvolvi com novas ideias, etc. No entanto, devido a complicações, continuei adiando, adiando e nunca fazendo. No entanto, ultimamente, tive uma explosão de motivação para fazê-lo e lançá-lo. Inclusive meu site de portfólio anterior, implantado no início de 2021, parece bom até hoje. No entanto, foi construído grosso e rápido usando HTML com CSS e significa que se eu quisesse expandi-lo, era perfeitamente possível, mas qualquer outra coisa teria dado muito mais trabalho.
+In short, it took too long. I usually try to update my personal profile every year. I use it as an opportunity to show off what I've been using, see how much I've developed with new ideas, etc. However, due to complications, I kept putting it off and putting it off and never doing it. However, lately I've had a burst of motivation to make it and release it. Even my previous portfolio site, deployed in early 2021, looks good even today. However, it was built thick and fast using HTML with CSS and meant that if I wanted to expand on it it was perfectly possible, but anything else would have been a lot more work.
 
-Então, depois de alguns meses desde o lançamento do meu último site de portfólio, decidi trabalhar com o que venho aprendendo, pegando como base, algumas inspirações nas comunidades que sou ativo!
+So, after a few months since the launch of my last portfolio website, I decided to work with what I've been learning, taking some inspiration from the communities I'm active as a base!
 
 ## :hammer: Tech Stack
 
@@ -45,23 +45,23 @@ Então, depois de alguns meses desde o lançamento do meu último site de portf�
 
 ---
 
-Originalmente, comecei a planejar, projetar e construir esta reconstrução no início de 2022, ótimo para otimização, acho que diria que Vite e Next.js são meus pricipais ambientes de produção, de projetos pessoais.
+I originally started planning, designing and building this rebuild in early 2022, great for optimization, I guess I would say Vite and Next.js are my main production environments, for personal projects.
 
-Diante o meu desenvolvimento foi avançando, eu estava planejando construir projetos usando [Vite](https://vitejs.dev/) e [React](https://reactjs.org/), e ainda faço, adoro Vite & React. No entanto, desde então, aprendi a usar outras ferramentas para criar produtos ainda melhores e mais rápidos. [Next.js](https://nextjs.org/) sendo o mais óbvio. O hot module reloading (HMR) do Vite é incrivelmente rápido! Até hoje eu ainda acho que é mais rápido que o Next.js (mesmo com o sinalizador de recurso experimental ESModules ativado), no entanto, eu estava disposto a fazer essa troca pelos outros recursos que ele oferece fora da caixa em comparação com o Vite.
+As my development progressed, I was planning to build projects using [Vite](https://vitejs.dev/) and [React](https://reactjs.org/), and I still do, I love Vite & React. However, since then, I've learned to use other tools to create even better products, faster. [Next.js](https://nextjs.org/) being the most obvious. Vite's hot module reloading (HMR) is incredibly fast! To this day I still think it's faster than Next.js (even with the ESModules experimental feature flag turned on), however I was willing to make that trade-off for the other features it offers out of the box compared to Vite.
 
 ## :sparkles: Features
 
 ---
 
-Como esta é minha nova reconstrução, vem uma série de novas técnicas e melhorias.
+As this is my new rebuild comes a host of new techniques and improvements.
 
 ### :muscle: Next.js
 
 ---
 
-Lançado em 2016 sobre a licença MIT, o [Next.js](https://nextjs.org/).
+Released in 2016 under MIT license, the [Next.js](https://nextjs.org/).
 
-Em resumo, é um framework de código aberto, criado com [React](https://reactjs.org/) e permite o desenvolvimento de aplicações tanto front-end quanto back-end.
+In summary, it is an open source framework, created with [React](https://reactjs.org/) and allows the development of both front-end and back-end applications.
 
 ```js:next.config.js
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
@@ -69,12 +69,12 @@ const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 module.exports = (phase, { defaultConfig }) => {
   if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
-      /* desenvolvimento apenas opções de configuração aqui */
+      /* development only configuration options here */
     }
   }
 
   return {
-    /* opções de configuração para todas as fases, exceto desenvolvimento aqui */
+    /* configuration options for all phases except development here */
   }
 }
 ```
@@ -83,9 +83,9 @@ module.exports = (phase, { defaultConfig }) => {
 
 ---
 
-Um pequeno recurso que muitas vezes esqueço que adicionei, mas ajuda muito com o tamanho do pacote, é [Preact](https://preactjs.com/).
+One little feature that I often forget I added, but helps a lot with package size, is [Preact](https://preactjs.com/).
 
-Em resumo, meus projetos Next.js estam configurando para substituir [React](https://reactjs.org/) por Preact para melhores compilações de produção.
+In short, my Next.js projects are configuring to replace [React](https://reactjs.org/) with Preact for better production builds.
 
 ```js:next.config.js
 webpack: (config, { dev, isServer }) => {
@@ -105,9 +105,9 @@ webpack: (config, { dev, isServer }) => {
 
 ---
 
-Uma mão na roda de recurso que depois que adicionei em um dos meus projetos, não parei, ajuda muito com a parte de estilização do desenvolvimento, é [Tailwind](https://tailwindcss.com/).
+A hand on the wheel resource that after I added it to one of my projects, I didn't stop, it helps a lot with the styling part of the development, is [Tailwind](https://tailwindcss.com/).
 
-Em resumo, você adiciona a estilização dos componententes direto nas classes!
+In short, you add component styling right into the classes!
 
 ```js:index
 <div>
@@ -120,20 +120,20 @@ Em resumo, você adiciona a estilização dos componententes direto nas classes!
 </div>
 ```
 
-#### Instale Tailwind CSS
+#### Install Tailwind CSS
 
-Instale `tailwindcss` via npm e crie seu
-arquivo `tailwind.config.js`.
+Install `tailwindcss` via npm and
+create your `tailwind.config.js` file.
 
 ```js:Terminal
 npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-#### Configure seus caminhos de modelo
+#### Configure your template paths
 
-Adicione os caminhos a todos os seus arquivos de modelo
-em seu arquivo `tailwind.config.js`.
+Add the paths to all your template files
+in your file `tailwind.config.js`.
 
 ```js:tailwind.config.js
 /** @type {import('tailwindcss').Config} */
@@ -146,10 +146,10 @@ module.exports = {
 }
 ```
 
-#### Adicione as diretivas Tailwind ao seu CSS
+#### Add Tailwind directives to your CSS
 
-Adicione as diretivas `@tailwind` para cada uma das diretivas
-do Tailwind camadas ao seu arquivo CSS principal.
+Add `@tailwind` directives to each of the directives
+from the Tailwind layers to your main CSS file.
 
 ```js:src/input.css
 @tailwind base;
@@ -157,19 +157,19 @@ do Tailwind camadas ao seu arquivo CSS principal.
 @tailwind utilities;
 ```
 
-#### Inicie o processo de compilação da CLI do Tailwind
+#### Start the Tailwind CLI build process
 
-Execute a ferramenta CLI para verificar seus arquivos de
-modelo para classes e construa seu CSS.
+Run the CLI tool to check your files
+template for classes and build your CSS.
 
 ```js:Terminal
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
-#### Comece a usar o Tailwind no seu HTML ou componente
+#### Start using Tailwind in your HTML or component
 
-Adicione seu arquivo CSS compilado ao `<head>` e comece usando
-as classes utilitárias do Tailwind para estilizar seu conteúdo.
+Add your compiled CSS file to `<head>` and start using
+Tailwind's utility classes to style your content.
 
 ```js:src/index.html
 <!doctype html>
@@ -191,4 +191,4 @@ as classes utilitárias do Tailwind para estilizar seu conteúdo.
 
 ---
 
-Isto é um pouco das muitas novidades que passei, espero que no próximo ano, venho atualizar este blog e ver até onde consegui chegar, quero agradecer a todos os presentes até agora e espero conhecer e participar de mais eventos para espalhar tecnologias e informações que vejo que tem a possibilidade de mudar nosso futuro!
+This is just a little bit of the many news that I've been through, I hope that next year, I'll come to update this blog and see how far I've managed to get, I want to thank everyone present so far and I hope to meet and participate in more events to spread technologies and information that I see that has the possibility to change our future!
