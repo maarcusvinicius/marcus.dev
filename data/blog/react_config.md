@@ -3,58 +3,57 @@ banner_alt: Screenshot of screen React animation
 banner: https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 title_prefix: React
 title: React / React Native
-description: React.js mudou meu estilo de código!
+description: React.js changed my coding style!
 date: '2022-05-27'
 ---
 
-Nos últimos meses, tenho sido bem tranquilo aprender e usar mesmo
-o classico [HTML](https://www.devmedia.com.br/o-que-e-o-html5/25820) e, neste ano, tenho procurado dificultar mais a coisas e dar mais um passo, aprendendo a utilizar um novo framework para minhas produções, buscando sempre melhorias e fluidez nos meus códigos, a conselho do meu mentor, me indicou utilizar uma ferramenta de compilação totalmente nova que está fora deste mundo rápido [React](https://reactjs.org/) :zap:.
+In the last few months, I've been pretty easy to learn and use even the classic [HTML](https://www.devmedia.com.br/o-que-e-o-html5/25820) and, this year, I've been trying to make things more difficult and take another step, learning to use a new framework for my productions, always looking for improvements and fluidity in my codes, on the advice of my mentor, he indicated me to use a totally new compilation tool that is out of this world fast [React](https://reactjs.org/) :zap :.
 
-No entanto, passando mais tempo trabalhando nesta área, aprendi a me apaixonar por essa tecnologia e mais especificamente por [Next.js](https://nextjs.org/).
+However, spending more time working in this area, I learned to fall in love with this technology and more specifically with [Next.js](https://nextjs.org/).
 
-Como o título indica, este post vai focar especificamente em como melhorar a [configuração do React](https://pt-br.reactjs.org/) focando em um punhado das principais/melhores opções de configuração usadas em outras ferramentas de construção como [Vite](https://vitejs.dev/).
+As the title implies, this post will focus specifically on how to improve [React configuration](https://pt-br.reactjs.org/) by focusing on a handful of the top/best configuration options used in other build tools like [Vite](https://vitejs.dev/).
 
 ### :wrench: More Options
 
 ---
 
-Em geral, sinto que deveria haver mais opções adicionadas ao arquivo de configuração. Olhando para as [opções compartilhadas no Vite](https://vitejs.dev/config/#root), aqui estão apenas algumas que fariam muito sentido adicionar:
+In general I feel like there should be more options added to the config file. Looking at the [shared options in Vite](https://vitejs.dev/config/#root), here are just a few that would make a lot of sense to add:
 
--   [`build`](https://vitejs.dev/config/#build-target): Personalizar a saída da compilação
+-   [`build`](https://vitejs.dev/config/#build-target): Customize build output
 
-    Ofereça mais customização para a configuração de build do seu projeto. No caso de Next.js, acho que muitas opções de construção existentes poderiam ser movidas para cá. EX.: `swcMinify`, `webpack`, etc.
+    Offer more customization for your project's build configuration. In the case of Next.js, I think many existing build options could be moved here. EG: `swcMinify`, `webpack`, etc.
 
--   [`define`](https://vitejs.dev/config/#define): Definir substituições constantes globais
+-   [`define`](https://vitejs.dev/config/#define): Define global constant substitutions
 
-    Como uma boa alternativa para ter que adicionar variáveis de ambiente `NEXT_PUBLIC_` o tempo todo, você pode usar isso para definir variáveis públicas constantes.
+    As a nice alternative to having to add `NEXT_PUBLIC_` environment variables all the time, you can use this to define constant public variables.
 
--   [`logLevel`](https://vitejs.dev/config/#logLevel): Ajustar verbosidade de saída do console
+-   [`logLevel`](https://vitejs.dev/config/#logLevel): Adjust verbosity of console output
 
--   [`plugins`](https://vitejs.dev/config/#plugins): Matriz de plugins para usar
+-   [`plugins`](https://vitejs.dev/config/#plugins): Array of plugins to use
 
--   [`root`](https://vitejs.dev/config/#root): Diretório raiz do projeto
+-   [`root`](https://vitejs.dev/config/#root): Project root directory
 
-    Reaprendendo o React Nos últimos meses, tenho pesquisado vários projetos de código aberto, muitos dos quais apontam para um diretório raiz personalizado. Mais comumente um diretório `src/`.
+    Relearning React Over the past few months, I've been researching a number of open source projects, many of which point to a custom root directory. Most commonly a `src/` directory.
 
--   [`server`](https://vitejs.dev/config/#server-host): Opções do servidor
+-   [`server`](https://vitejs.dev/config/#server-host): Server options
 
-    Personalize a configuração do servidor com opções como `cors`, `port`, etc.
+    Customize the server configuration with options like `cors`, `port`, etc.
 
-A maioria dessas opções simplesmente adiciona flexibilidade e extensibilidade à estrutura do projeto para usuários mais avançados.
+Most of these options simply add flexibility and extensibility to the project structure for more advanced users.
 
 ### :exclamation: TypeScript
 
 ---
 
-Passando para o que é, pelo menos para mim, uma das características mais óbvias a se utilizar. Suporte a TypeScript.
+Moving on to what is, to me at least, one of the most obvious features to use. TypeScript support.
 
-Hoje, o React representa grande parte do desenvolvimento frontend e contém diversas ferramentas em seu ecossistema que aprimoram a experiência de desenvolvimento. Quando usamos Typescript com React, obtemos o benefício de escrever bem nossos componentes sem usar PropTypes. Além disso, nos beneficiamos do princípio fail-fast, que nos permite identificar e evitar erros e melhorar a qualidade do código.
+Today, React represents a large part of frontend development and contains several tools in its ecosystem that enhance the development experience. When we use Typescript with React, we get the benefit of writing our components well without using PropTypes. Furthermore, we benefit from the fail-fast principle, which allows us to identify and avoid errors and improve code quality.
 
-Noções básicas sólidas são importantes ao escrever código. Aqui estão alguns hábitos básicos a serem lembrados ao escrever código datilografado. O Typescript permite que você desconsidere as convenções e escreva o código do seu jeito.
+Solid basics are important when writing code. Here are some basic habits to remember when writing typescript code. Typescript lets you bypass convention and write code your way.
 
-A organização de tipo não é necessária para um arquivo de configuração. Mas, ao escrevê-lo, pode ser muito útil ter ferramentas, como intellisense, para ajudar a identificar quaisquer problemas com sua configuração ou ajudar a evitar que você tenha que procurar a documentação.
+Type organization is not required for a configuration file. But as I write it, it can be very helpful to have tools such as intellisense to help identify any issues with your configuration or to help save you having to dig through the documentation.
 
-Seguindo o estilo de codificação baseado em componentes do React, separamos os componentes em vários arquivos diferentes. Ao usar o typescript, é sempre uma boa ideia exportar os tipos de Props junto com o componente.
+Following React's component-based coding style, we split the components into several different files. When using typescript, it's always a good idea to export the Props types along with the component.
 
 ```ts:App
 import * as React from 'react';
@@ -88,15 +87,15 @@ export default Tooltip;
 
 ---
 
-Hooks são o novo recurso introduzido no React, ele permite que você use o estado e outros recursos do React sem escrever uma classe. Ganchos são funções que se "engancham" no estado do React e nos recursos do ciclo de vida dos componentes da função. Não funciona dentro das classes.
+Hooks are the new feature introduced in React, it allows you to use state and other features of React without writing a class. Hooks are functions that "hook" into the React state and lifecycle resources of the function's components. Does not work within classes.
 
-Essencialmente, estamos finalmente obtendo uma maneira nativa de lidar com a funcionalidade assíncrona no React. O que significa que realmente não precisamos confiar em useEffect para obter nossos dados, podemos apenas criar uma solicitação get axios e envolvê-la em uma associação de uso.
+Essentially, we're finally getting a native way to handle asynchronous functionality in React. Which means we don't really need to rely on useEffect to get our data, we can just create a get axios request and wrap it in a usage binding.
 
 ---
 
 #### useState
 
-O useState é um gancho que permite manter o estado de reação a componentes funcionais. Esse gancho aceita um argumento que define o valor inicial da propriedade de estado. Ele retorna o par de valores. valor atual da propriedade de estado e um método capaz de atualizar essa propriedade de estado.
+useState is a hook that allows you to maintain state in response to functional components. This hook accepts an argument that sets the initial value of the state property. It returns the pair of values. current value of the state property and a method capable of updating that state property.
 
 ```bash:App
 import React, { useState } from 'react';
@@ -123,7 +122,7 @@ export const FunctionalCounter = () => {
 
 #### useEffect
 
-Temos também o useEffect, uma função que o React promete executar após cada renderização. Isso é conveniente, porque cada alteração na entrada aciona uma renderização. Então podemos usar useEffect para fazer nossa validação.
+We also have useEffect, a function that React promises to run after every render. This is convenient, because every change to the input triggers a render. Then we can use useEffect to do our validation.
 
 ```bash:App
   useEffect(
@@ -138,28 +137,28 @@ Temos também o useEffect, uma função que o React promete executar após cada 
   );
 ```
 
-Nosso novo amigo aceita uma função como primeiro argumento e um array como segundo argumento opcional.
+Our new friend accepts a function as the first argument and an array as the optional second argument.
 
-Acontece que você não precisa mais comparar adereços ou estados. O React permite que você forneça os valores no segundo argumento no qual deseja executar o useEffect. Portanto, em nosso caso, useEffect será executado apenas em alterações na entrada.
+It turns out that you no longer need to compare props or states. React allows you to provide the values in the second argument you want to run the useEffect on. So in our case, useEffect will only run on input changes.
 
 ### :globe_with_meridians: React Native
 
 ---
 
-Fiquei falando e falando neste post de React e acabei esquecendo que é sobre React E REACT NATIVE, mas lembrei que as coisas são praticamente as mesmas :sweat_smile:.
+I kept talking and talking about this React post and I ended up forgetting that it's about React AND REACT NATIVE, but I remembered that things are practically the same :sweat_smile:.
 
-Claro que tem suas diferenças. O React JS melhora o SEO do site, é mais simples de aprender e testar, possibilitando a migração entre plataformas. Já o React Native permite que usemos todos os recursos nativos da plataforma, além da possibilidade de utilizar recursos em conjunto com aplicações externas.
+Of course it has its differences. React JS improves site SEO, is simpler to learn and test, and makes cross-platform migration possible. React Native, on the other hand, allows us to use all the native resources of the platform, in addition to the possibility of using resources together with external applications.
 
-Porém você não vai sentir dificuldades em transfirir seus projetos React para React Native, e esse é uma das melhores vantagens! Unir o Dev Front com o Dev Mobile ajuda bastante a conexão das equipes e crescimento de projetos.
+However, you will not experience any difficulties in transferring your React projects to React Native, and this is one of the best advantages! Combining Dev Front with Dev Mobile helps a lot in connecting teams and project growth.
 
-Como começei com React, não foi tão complicado unir meus projetos, utilizo o [Expo](https://expo.dev/) e a IDE [Android Studio](https://developer.android.com/studio?hl=pt) para criação de projetos Mobile com React Native.
+As I started with React, it wasn't so complicated to unite my projects, I use [Expo](https://expo.dev/) and the IDE [Android Studio](https://developer.android.com/studio?hl=pt) for creating Mobile projects with React Native.
 
 ### :thinking_face: Conclusion
 
 ---
 
-Fico feliz em saber onde estou, fico pensando se eu tivesse parado ou desistido, a programação é difícil! Porém o :heart: a tecnologia é maior que qualquer coisa, aonde eu for eu quero espalhar isso, como alguém fez isso comigo um dia!
+Glad to know where I am, I wonder if I had stopped or given up, programming is tough! But the :heart: technology is bigger than anything, wherever I go I want to spread it, like someone did that to me one day!
 
-É muito difícil eu ver outro desenvolvedor que realmente gosta de tecnologia e tão empolgado quanto a mim :sweat_smile:. Porém, sinto que isso precisa ser algo que deve ser discutido mais na comunidade e analisado mais a fundo, pois pode tornar o React.js ainda mais poderoso do que já é.
+It's really hard for me to see another developer who really likes technology and is as excited as I am :sweat_smile:. However, I feel this needs to be something that should be discussed more in the community and looked into further, as it could make React.js even more powerful than it already is.
 
 ---

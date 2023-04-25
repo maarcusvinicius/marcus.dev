@@ -3,49 +3,49 @@ banner_alt: Stable Diffusion
 banner: https://www.blendernation.com/wp-content/uploads/2022/09/hmgpmo2fslm91-e1662673757262.png
 title_prefix: Guide
 title: Utilizando Stable Diffusion
-description: Veja um pouco como Stable Diffusion funciona e minhas experiências
+description: See a little how Stable Diffusion works and my experiences.
 date: '2022-10-10'
 ---
 
-Sei que não é na minha linha de tecnologias Web a inteligência artificial (ainda), mas como já disse em outros posts. Sou uma pessoa muito curiosa, gosto de saber como as coisas funcionam e esses dias encontrei um projeto incrível onde o computador usa sua inteligência para CRIAR imagens do 0, o [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion)! :hushed:
+I know that artificial intelligence is not in my line of Web technologies (yet), but as I have said in other posts. I'm a very curious person, I like to know how things work and these days I found an incredible project where the computer uses its intelligence to CREATE images from 0, the [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion)! :hushed:
 
-Então, vamos analisar por que adicionei esse post, por que não usar algum outro serviço e, claro, como ele funciona.
+So let's break down why I added this post, why not use some other service, and of course how it works.
 
-## :question: Por quê
-
----
-
-Estava querendo alterar meu perfil e lapidá-lo a algum tempo, esperei a hora e decidi estudar mais tecnologias e subir de nível, elevando meus conhecimentos. Um dia, estava vendo notícias e me deparei com a magia da inteligência artificial, meu professor de Programação Full Stack [Igor](https://www.youtube.com/watch?v=aZMEgmqBpf0&ab_channel=ProgramadorBR), nos informou em um de seus vídeos, sobre isso, e decidir ir atrás, buscar sobre e entender como funciona!
-
-O programador que desenvolveu a tecnologia fez uma ótima documentação em seu [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui), código-fonte aberto para uso de todos.
-
-## :green_apple: Comunidades
+## :question: Why
 
 ---
 
-Com diversas comunidades de artes ativas, vejo que isso pode fazer grande diferença no mundo digital!
+I wanted to change my profile and polish it for some time, I waited for the time and decided to study more technologies and level up, raising my knowledge. One day, I was watching the news and I came across the magic of artificial intelligence, my Full Stack Programming teacher [Igor](https://www.youtube.com/watch?v=aZMEgmqBpf0&ab_channel=ProgramadorBR), informed us in one of your videos, about it, and decide to go after it, search about it and understand how it works!
+
+The programmer who developed the technology has done great documentation on his [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui), open source code for everyone to use.
+
+## :green_apple: Communities
+
+---
+
+With several active arts communities, I see that this can make a big difference in the digital world!
 
 ![Lexica](/blog/stable_diffusion/lexica.png)
 
-Uma das maiores comunidades onde você pode se inspirar em outros designers [Lexica](https://lexica.art/?), nele você pode pegar o modelo de como eles utilizaram as configurações para chegar naquele resultado.
+One of the biggest communities where you can be inspired by other designers [Lexica](https://lexica.art/?), in it you can get the model of how they used the settings to reach that result.
 
 ![Lexica](/blog/stable_diffusion/lexica_Img.png)
 
-## :hammer: Como funciona?
+## :hammer: How it works?
 
 ---
 
-Primeiro devesse instalar o [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) no seu computador. Utilizei uma ajuda de um vídeo no canal [IgorIA](https://www.youtube.com/watch?v=gVRnheLi3hU&t=301s&ab_channel=IgorIA), onde ele segue o passo a passo de como você já criar sua primeira imagem.
+First you should install [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) on your computer. I used the help of a video on the channel [IgorIA](https://www.youtube.com/watch?v=gVRnheLi3hU&t=301s&ab_channel=IgorIA), where it follows the step by step of how you create your first image.
 
-Para que isso funcione, precisamos de duas coisas principais: [Python](https://www.python.org/) e a [GitBash](https://git-scm.com/downloads) para clonar o projeto do [AUTOMATIC1111](https://github.com/AUTOMATIC1111/). Opcionalmente, você também pode usar algum tipo de modelo, utilizei deste site [huggingface](https://huggingface.co/runwayml/stable-diffusion-v1-5), para armazenar em cache.
+For this to work, we need two main things: [Python](https://www.python.org/) and [GitBash](https://git-scm.com/downloads) to clone the project from [ AUTOMATIC1111](https://github.com/AUTOMATIC1111/). Optionally, you can also use some kind of template, I used from this site [huggingface](https://huggingface.co/runwayml/stable-diffusion-v1-5), to cache.
 
-### Como gerar
+### How to generate?
 
-Começando, configuramos o ambiente como quisermos que seja criado à imagem, e como principal o texto que o computador deve se basear ou subir uma imagem sua, na aba `img2img`.
+Starting off, we set up the environment as we want the image to be created, and as the main text the computer should base on or upload your image, in the `img2img` tab.
 
 ![label_1](/blog/stable_diffusion/label_1.png)
 
-Com a mesma imagem, alguns outros resultados em diferentes testes:
+With the same image, some other results in different tests:
 
 <center>
 
@@ -57,8 +57,8 @@ Com a mesma imagem, alguns outros resultados em diferentes testes:
 
 </center>
 
-## :white_check_mark: Conclusão
+## :white_check_mark: Conclusion
 
 ---
 
-E é isso, com pouco, milhares de oportunidades. Mas um pouco cansativo, acho que não adianta escrever ou enviar qualquer coisa. Quero estudar mais para evoluir meu conhecimento e ter melhoras conclusivas em meus futuros testes! Espero voltar e escrever mais sobre esse caminho de inteligência artificial para vocês. Bye 👋🏻
+And that's it, with little, thousands of opportunities. But a little tiring, I don't think there's any point in writing or sending anything. I want to study more to improve my knowledge and have conclusive improvements in my future tests! I look forward to coming back and writing more about this artificial intelligence path for you. Bye 👋🏻
