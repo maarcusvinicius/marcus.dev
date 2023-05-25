@@ -50,7 +50,7 @@ const staticMenuItems: Array<Array<NavigationItem>> = [
 			type: NavigationItemType.LINK,
 			icon: 'feather:download',
 			text: 'Currículo',
-			href: 'https://drive.google.com/file/d/1pq7yTC-Y5S-uvUQBr95yrxe7bRW1W6Ij/view?usp=sharing',
+			href: 'https://drive.google.com/file/d/1aku-qRRHQNQPJITgRV2USTqdaKHt1_ea/view?usp=share_link',
 			external: true,
 		},
 	],
