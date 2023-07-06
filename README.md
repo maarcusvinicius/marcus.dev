@@ -142,6 +142,17 @@ marcus.dev/
 -   `index.ts`: it is the main file of the folder, which exports all available components to be used in the project.
 
 <br />
+
+## License
+
+<p>
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/). Feel free to use, modify and distribute it as needed.
+
+</p>
+
+<br />
+<br />
 <br />
 <h4 align="center"> 
 	🚧  My portfolio 📓 FINISHED  🚧
