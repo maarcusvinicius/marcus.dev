@@ -5,7 +5,7 @@ import type { GitHubRepos, Project, ProjectPost } from '~/types';
 
 export async function fetchProjects(): Promise<Array<Project> | null> {
 	const response = await fetch(
-		'https://api.github.com/users/maarcusvinicius/repos?page=2&per_page=100',
+		'https://api.github.com/users/maarcusvinicius/repos?page=1&per_page=100',
 		{
 			headers: {
 				...(process.env.GITHUB_PAT && {
