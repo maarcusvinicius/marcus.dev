@@ -3,15 +3,17 @@ import { log } from 'next-axiom';
 
 import type { GitHubRepos, Project, ProjectPost } from '~/types';
 
-
 export async function fetchProjects(): Promise<Array<Project> | null> {
-	const response = await fetch('https://api.github.com/users/maarcusvinicius/repos', {
-		headers: {
-			...(process.env.GITHUB_PAT && {
-				authorization: `token ${process.env.GITHUB_PAT}`,
-			}),
+	const response = await fetch(
+		'https://api.github.com/users/maarcusvinicius/repos?page=2&per_page=100',
+		{
+			headers: {
+				...(process.env.GITHUB_PAT && {
+					authorization: `token ${process.env.GITHUB_PAT}`,
+				}),
+			},
 		},
-	});
+	);
 	if (response.status !== 200) {
 		const json = (await response.json()) as {
 			documentation_url: string;
